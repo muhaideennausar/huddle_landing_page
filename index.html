@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <title>Huddle landing page with single introductory section</title>
+  <script src="https://kit.fontawesome.com/4f49229eeb.js" crossorigin="anonymous"></script>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      width: 100%;
+      min-height: 100vh;
+      padding: 0 100px;
+      background: #674baf url("images/bg-desktop.svg") no-repeat;
+      background-size: contain;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .logo{
+      width: 20%;
+    }
+    .hero-image{
+      width: 100%;
+      max-width: 700px;
+      width: 100%;
+      display: inline;
+    }
+    main{
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+    }
+    .left{
+      width: 100%;
+    }
+    .right{
+      max-width: 500px;
+      margin-left: 50px;
+    }
+    .hero-text{
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.5rem;
+      color: white;
+      margin-bottom: 30px;
+      margin-top: 50px;
+    }
+    .para{
+      font-size: 1.1rem;
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      margin-bottom: 30px;
+    }
+    .reg-btn{
+      padding: 10px 50px;
+      border-radius: 100px;
+      font-size: 1rem;
+      font-family: 'Poppins', sans-serif;
+      color: #674baf;
+      outline: none;
+      border: none;
+      box-shadow: 5px 5px 20px rgba(30, 22, 51, .5);
+      margin-bottom: auto;
+      transition: all .3s ease-in-out;
+    }
+    .reg-btn:hover{
+      background-color: #e882e8;
+      color: white;
+      cursor: pointer;
+    }
+    .btn{
+      width: 40px;
+      height: 40px;
+      background-color: transparent;
+      border: 1px solid white;
+      color: white;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      transition: all .3s ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn:hover{
+      border: 1px solid #e882e8;
+      color: #e882e8;
+      cursor: pointer;
+    }
+    .social{
+      display: flex;
+      justify-content: flex-end;
+      gap: 15px;
+    }
+  </style>
+</head>
+<body>
+  <img src="images/logo.svg" class="logo">
+  <main>
+    <section class="left">
+      <img src="images/illustration-mockups.svg" class="hero-image">
+    </section>
+    <section class="right">
+      <h1 class="hero-text">Build The Community Your Fans Will Love</h1>
+      <p class="para">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+      <button class="reg-btn">Register</button>
+    </section>
+  </main>
+  <div class="social">
+    <button class="fb-btn btn"><i class="fa-brands fa-facebook-f"></i></button>
+    <button class="tr-btn btn"><i class="fa-brands fa-twitter"></i></button>
+    <button class="ig-btn btn"><i class="fa-brands fa-instagram"></i></button>
+  </div>
+ <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+</html>
