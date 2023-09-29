@@ -23,7 +23,7 @@ To complete the challenge, we used the following technologies:
 
 ## Live Demo
 
-You can also view a live demo of the completed challenge by visiting the following URL : [**Live Demo**]()
+You can also view a live demo of the completed challenge by visiting the following URL : [**Live Demo**](https://huddle-landing-page-three-rose.vercel.app/)
 
 ## Acknowledgments
 
